@@ -1,5 +1,37 @@
-* {
-    margin: 0 auto;
-    padding: 0 auto;
-    box-sizing: border-box;
+:root {
+    --color-1: #FFFFFF;
+    --color-2: #016CFA;
+    --color-3: #00E164;
+}
+
+/* Colors text inside columns */
+
+.col-text-white {
+    color: var(--color-1);
+}
+
+/* Puts padding top and bottom to rows */
+
+.row-padded {
+    padding: 1rem;
+}
+
+/* Puts borders on columns */
+
+.col-bordered-white {
+    border: 1px solid var(--color-1);
+}
+
+.col-bordered-blue {
+    border: 1px solid var(--color-2);
+}
+
+/* Puts background colors on columns */
+
+.col-background-blue {
+    background-color: var(--color-2);
+}
+
+.col-background-green {
+    background-color: var(--color-3);
 }
