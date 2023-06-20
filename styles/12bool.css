@@ -13,10 +13,6 @@
     flex-direction: row;
 }
 
-.wrapped {
-    flex-wrap: wrap;
-}
-
 /* Main framework selectors */
 
 .container {

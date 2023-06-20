@@ -44,19 +44,19 @@
     background-color: var(--color-3);
 }
 
-/* Puts padding top and bottom to columns */
+/* Puts padding on columns */
 
 .col-padded {
     padding: 0.7rem 0.5rem;
 }
 
-/* Gives fixed height to cols */
+/* Gives fixed height on columns */
 
 .col-height {
     height: 40px;
 }
 
-/* Centers text insie columns */
+/* Centers text inside columns */
 
 [class*="col-"] {
     text-align: center;
