@@ -8,6 +8,15 @@
 
 /* Utility classes */
 
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapped {
+    flex-wrap: wrap;
+}
+
 /* Main framework selectors */
 
 .container {

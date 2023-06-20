@@ -1,7 +1,15 @@
+/* Variables */
+
 :root {
     --color-1: #FFFFFF;
     --color-2: #016CFA;
     --color-3: #00E164;
+}
+
+/* Tag level selectors */
+
+* {
+    font-size: 14px;
 }
 
 /* Colors text inside columns */
@@ -13,7 +21,7 @@
 /* Puts padding top and bottom to containers */
 
 .container-padded {
-    padding: 1rem;
+    padding: 0.5rem 0;
 }
 
 /* Puts borders on columns */
@@ -34,4 +42,22 @@
 
 .col-background-green {
     background-color: var(--color-3);
+}
+
+/* Puts padding top and bottom to columns */
+
+.col-padded {
+    padding: 0.7rem 0.5rem;
+}
+
+/* Gives fixed height to cols */
+
+.col-height {
+    height: 40px;
+}
+
+/* Centers text insie columns */
+
+[class*="col-"] {
+    text-align: center;
 }
