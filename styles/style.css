@@ -10,9 +10,9 @@
     color: var(--color-1);
 }
 
-/* Puts padding top and bottom to rows */
+/* Puts padding top and bottom to containers */
 
-.row-padded {
+.container-padded {
     padding: 1rem;
 }
 
