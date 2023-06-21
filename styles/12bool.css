@@ -148,7 +148,7 @@
 
 @media screen and (min-width: 580px) {
 
-/* Column width selectors */
+/* Column width selectors s */
 
 .col-1-s {
     flex-basis: calc(100% / 12);
@@ -209,7 +209,7 @@
     max-width: calc((100% / 12) * 12);
 }
 
-/* Offset selectors */
+/* Offset selectors s */
 
 .col-offset-0 {
     margin-left: 0;
@@ -266,7 +266,7 @@
 
 @media screen and (min-width: 780px) {
 
-/* Column width selectors */
+/* Column width selectors m */
 
 .col-1-m {
     flex-basis: calc(100% / 12);
@@ -327,7 +327,7 @@
     max-width: calc((100% / 12) * 12);
 }
 
-/* Offset selectors */
+/* Offset selectors m */
 
 .col-offset-0 {
     margin-left: 0;
@@ -384,7 +384,7 @@
 
 @media screen and (min-width: 920px) {
 
-    /* Column width selectors */
+    /* Column width selectors l */
 
 .col-1-l {
     flex-basis: calc(100% / 12);
@@ -445,7 +445,7 @@
     max-width: calc((100% / 12) * 12);
 }
 
-/* Offset selectors */
+/* Offset selectors l */
 
 .col-offset-0 {
     margin-left: 0;
@@ -503,7 +503,7 @@
 
 @media screen and (min-width: 1140px) {
 
-    /* Column width selectors */
+    /* Column width selectors xl */
 
 .col-1-xl {
     flex-basis: calc(100% / 12);
@@ -564,7 +564,7 @@
     max-width: calc((100% / 12) * 12);
 }
 
-/* Offset selectors */
+/* Offset selectors xl */
 
 .col-offset-0 {
     margin-left: 0;
